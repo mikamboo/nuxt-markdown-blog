@@ -1,7 +1,18 @@
+import path from 'path'
 import pkg from './package'
 
 export default {
   mode: 'universal',
+
+  generate: {
+    routes() {
+      return [
+        '/posts/article-1',
+        '/posts/article-2'
+        //... other articles
+      ]
+    }
+  },
 
   /*
   ** Headers of the page
@@ -47,6 +58,7 @@ export default {
   ** Build configuration
   */
   build: {
+
     postcss: {
       preset: {
         features: {
@@ -54,10 +66,16 @@ export default {
         }
       }
     },
+
     /*
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        include: path.resolve(__dirname, 'content')
+      })
     }
   }
 }
