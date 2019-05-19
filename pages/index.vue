@@ -6,22 +6,14 @@
         nuxt-markdown-blog
       </h1>
       <h2 class="subtitle">
-        My incredible Nuxt.js project
+        My incredible markdown blog with Nuxt.js
       </h2>
       <div class="links">
-        <nuxt-link to="/posts/article-1">
-          <a
-            href="#"
-            target="_blank"
-            class="button--green"
-          >Article 1</a>
+        <nuxt-link class="button--green" to="/posts/article-1">
+          Article 1
         </nuxt-link>
-        <nuxt-link to="/posts/article-2">
-          <a
-            href="#"
-            target="_blank"
-            class="button--green"
-          >Article 2</a>
+        <nuxt-link class="button--green" to="/posts/article-2">
+          Article 2
         </nuxt-link>
       </div>
     </div>
