@@ -1,6 +1,8 @@
 import path from 'path'
 import pkg from './package'
 
+console.log(process.env.NODE_ENV)
+
 export default {
   mode: 'universal',
 
@@ -12,6 +14,10 @@ export default {
         //... other articles
       ]
     }
+  },
+
+  router: {
+    base: process.env.NODE_ENV !== 'production' ? '/' : '/nuxt-markdown-blog/'
   },
 
   /*
