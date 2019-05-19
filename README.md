@@ -1,6 +1,16 @@
 # nuxt-markdown-blog
 
-> My incredible Nuxt.js project
+> Create a simple markdown blog with [Nuxt.js](https://nuxtjs.org)
+
+Read my blog post [here](https://pambo-ognana.ga/create-a-simple-markdown-blog-with-nuxtjs)
+
+## Setup summary
+
+1. Create a new nuxtjs app: `yarn create nuxt-app nuxt-markdown-blog`
+2. Add [frontmatter-markdown-loader](https://www.npmjs.com/packagefrontmatter-markdown-loader) Webpack Loader
+3. Add markdown content as blog posts
+4. Add dynamic view using `slug` params 
+5. Generate ready to deploy static web site
 
 ## Build Setup
 
@@ -19,4 +29,7 @@ $ yarn start
 $ yarn run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, checkout :
+
+- [Nuxt.js docs](https://nuxtjs.org)
+- [frontmatter-markdown-loader package](https://nuxtjs.org)

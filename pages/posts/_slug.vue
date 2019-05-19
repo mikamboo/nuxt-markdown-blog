@@ -10,7 +10,6 @@
         </h2>
       </div>
     </section>
-    <br>
     <div class="container">
       <div class="content has-text-justified" v-html="content"/>
     </div>

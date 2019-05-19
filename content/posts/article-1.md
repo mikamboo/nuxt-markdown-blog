@@ -10,7 +10,6 @@ Le Lorem Ipsum est simplement du faux texte employé dans la composition et la m
 
 ## Code example
 
-
 ```js
 <template>
   <div>

@@ -9,16 +9,20 @@
         My incredible Nuxt.js project
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+        <nuxt-link to="/posts/article-1">
+          <a
+            href="#"
+            target="_blank"
+            class="button--green"
+          >Article 1</a>
+        </nuxt-link>
+        <nuxt-link to="/posts/article-2">
+          <a
+            href="#"
+            target="_blank"
+            class="button--green"
+          >Article 2</a>
+        </nuxt-link>
       </div>
     </div>
   </section>
