@@ -9,10 +9,10 @@
         My incredible markdown blog with Nuxt.js
       </h2>
       <div class="links">
-        <nuxt-link class="button--green" to="/posts/article-1">
+        <nuxt-link class="button--green" to="posts/article-1">
           Article 1
         </nuxt-link>
-        <nuxt-link class="button--green" to="/posts/article-2">
+        <nuxt-link class="button--green" to="posts/article-2">
           Article 2
         </nuxt-link>
       </div>

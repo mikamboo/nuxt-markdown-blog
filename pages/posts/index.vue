@@ -6,10 +6,10 @@
       </h1>
       <ul>
         <li>
-          <nuxt-link to="/posts/article-1">Article 1</nuxt-link>
+          <nuxt-link to="posts/article-1">Article 1</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/posts/article-1">Article 2</nuxt-link>
+          <nuxt-link to="posts/article-1">Article 2</nuxt-link>
         </li>
       </ul>
     </div>
