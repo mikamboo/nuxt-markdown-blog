@@ -15,6 +15,9 @@
         <nuxt-link class="button--green" to="posts/article-2">
           Article 2
         </nuxt-link>
+        <a class="button--green" href="https://github.com/mikamboo/nuxt-markdown-blog">
+          Sources on Gihub
+        </a>
       </div>
     </div>
   </section>
